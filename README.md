@@ -24,20 +24,32 @@ Table of Contents:
 # Virtual Environment
 To work locally with an virtual environment (venv) do the following steps:
 1. Create a venv locally by running:
-```python -m venv venv```
+```
+python -m venv venv
+```
 2. Activate the venv:
-```source venv/bin/activate```
+```
+source venv/bin/activate
+```
 3. Install dependencies locally:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 # Run
 Use the following command to run the code:
-```python src/index.py```
+```
+python src/index.py
+```
 
 # Test
 For testing, run:
-```pytest test```
+```
+pytest test
+```
 
 # Linting
 For linting, run:
-```flake8 --config=flake8.ini```
+```
+flake8 --config=flake8.ini
+```
