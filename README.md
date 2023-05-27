@@ -1,7 +1,7 @@
 # +++ DELETE THIS AREA +++
 # python-project-template
 
-This is a python project template to get you up in running in under one minute.
+This is a python project template to get you up and running in under one minute.
 This template contains the following best practices:
 - **pytest** for [testing](https://github.com/veilair/test-driven-development)
 - **flake8** for [linting](https://www.makeuseof.com/what-is-linting/)
@@ -36,7 +36,7 @@ Use the following command to run the code:<br/>
 
 # Test
 For testing, run:<br/>
-```pytest test```
+`pytest test`
 
 # Linting
 For linting, run:<br/>
