@@ -41,3 +41,26 @@ For testing, run:<br/>
 # Linting
 For linting, run:<br/>
 ```flake8 --config=flake8.ini```
+
+
+
+0. Create venv
+```
+python -m venv venv
+```
+1. Activate venv
+```
+source venv/bin/activate
+```
+2. Install dependencies
+```
+pip install -r requirements.txt
+```
+3. Go into src directory (otherwise PATHs won't work)
+```
+cd src/
+```
+4. Execute script
+```
+python cert_overview.py
+```
