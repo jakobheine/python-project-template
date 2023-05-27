@@ -23,44 +23,21 @@ Table of Contents:
 
 # Virtual Environment
 To work locally with an virtual environment (venv) do the following steps:
-1. Create a venv locally by running:<br/>
+1. Create a venv locally by running:
 ```python -m venv venv```
-2. Activate the venv:<br/>
+2. Activate the venv:
 ```source venv/bin/activate```
-3. Install dependencies locally:<br/>
+3. Install dependencies locally:
 ```pip install -r requirements.txt```
 
 # Run
-Use the following command to run the code:<br/>
+Use the following command to run the code:
 ```python src/index.py```
 
 # Test
-For testing, run:<br/>
-`pytest test`
+For testing, run:
+```pytest test```
 
 # Linting
-For linting, run:<br/>
+For linting, run:
 ```flake8 --config=flake8.ini```
-
-
-
-0. Create venv
-```
-python -m venv venv
-```
-1. Activate venv
-```
-source venv/bin/activate
-```
-2. Install dependencies
-```
-pip install -r requirements.txt
-```
-3. Go into src directory (otherwise PATHs won't work)
-```
-cd src/
-```
-4. Execute script
-```
-python cert_overview.py
-```
