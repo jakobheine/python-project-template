@@ -51,5 +51,5 @@ pytest test
 # Linting
 For linting, run:
 ```
-flake8 --config=flake8.ini
+flake8 --config=lint/flake8.ini
 ```
