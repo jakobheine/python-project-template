@@ -1,3 +1,0 @@
-pytest==7.3.1
-flake8==6.0.0
-pyfiglet==0.7

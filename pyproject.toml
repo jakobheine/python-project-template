@@ -1,0 +1,19 @@
+[project]
+name = "YOUR-PROJECT-NAME"
+version = "1.0"
+authors = [
+    {name = "YOUR-NAME", email = "YOUR-EMAIL@MAIL.COM"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+
+dependencies = [
+    "pytest==7.3.1",
+    "pyfiglet==0.7",
+    "ruff==0.0.270"
+]
+
+[tool.ruff]
+select = ["ANN", "E", "F", "W"]
+line-length = 120

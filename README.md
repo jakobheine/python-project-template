@@ -35,7 +35,7 @@ source venv/bin/activate
 ```
 3. Install dependencies locally:
 ```
-pip install -r requirements.txt
+pip install .
 ```
 
 # Run
@@ -53,7 +53,7 @@ pytest test
 # Linting
 For linting, run:
 ```
-flake8 --config=lint/flake8.ini
+ruff check .
 ```
 
 # Pre-commit-Hook

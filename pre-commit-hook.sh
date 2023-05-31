@@ -1,5 +1,5 @@
 pyfiglet LINTING
-flake8 --config=lint/flake8.ini
+ruff check .
 
 pyfiglet TEST
 pytest test
