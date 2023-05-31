@@ -60,5 +60,5 @@ ruff check .
 The [pre-commit-hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) runs before every commit and lints the files and executes the tests.
 To enable the pre-commit-hook run:
 ```
-cp lint/pre-commit-hook.sh .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+cp pre-commit-hook.sh .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
 ```
