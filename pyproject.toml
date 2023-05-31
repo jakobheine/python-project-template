@@ -5,7 +5,7 @@ authors = [
     {name = "YOUR-NAME", email = "YOUR-EMAIL@MAIL.COM"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = "==3.11"
 classifiers = ["License :: OSI Approved :: Apache Software License"]
 
 dependencies = [
